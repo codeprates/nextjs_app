@@ -22,6 +22,12 @@ export default function Home() {
         <div className={styles.grid}>
           <p>New div here</p>
         </div>
+
+        <div className={styles.grid}>
+          <p>
+            Visite a <a href="/secondpage">segunda página</a>
+          </p>
+        </div>
       </main>
 
       <footer className={styles.footer}>
